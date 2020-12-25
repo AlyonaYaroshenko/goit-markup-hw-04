@@ -13,6 +13,7 @@
   --footer-background-color: #2f303a;
   --button-background: #f5f4fa;
   --hero-background: #c4c4c4;
+  --hero-gradient: rgba(47, 48, 58, 0.4);
 }
 
 a {
@@ -135,9 +136,18 @@ img {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  /* height: 600px; */
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--hero-background);
-  background-image: url(../images/hero.jpg);
+  background-image: linear-gradient(
+      to right,
+      var(--hero-gradient),
+      var(--hero-gradient)
+    ),
+    url(../images/hero.jpg);
+  background-repeat: no-repeat;
 }
 
 .hero-title {
