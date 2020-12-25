@@ -148,6 +148,7 @@ img {
     ),
     url(../images/hero.jpg);
   background-repeat: no-repeat;
+  background-position: cover;
 }
 
 .hero-title {
@@ -192,7 +193,7 @@ img {
 /* advantages */
 
 .advantages-section {
-  padding: 90px 0px 94px;
+  padding: 94px 0px 94px;
 }
 
 .visually-hidden {
@@ -211,6 +212,16 @@ img {
 
 .advantages > .item:not(:last-child) {
   margin-right: 30px;
+}
+
+.advantages-icons {
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  background-color: var(--button-background);
+  margin-bottom: 30px;
+  padding: 25px 100px;
+  border-radius: 4px;
 }
 
 .advantages-title {
@@ -430,7 +441,8 @@ img {
   margin-right: 0px;
 }
 
-.portfolio-list:hover {
+.portfolio-list:hover,
+.portfolio-list:focus {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
