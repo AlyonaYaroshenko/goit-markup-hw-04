@@ -303,6 +303,40 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
+/* social links */
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  margin: 16px 32px 0px;
+}
+
+.social-list > .social-items:not(:last-child) {
+  margin-right: 10px;
+}
+
+.icon-size {
+  width: 20px;
+  height: 20px;
+}
+
+.social-links {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.icon-size:hover {
+  fill: var(--white-color);
+}
+
+.social-links:hover {
+  background-color: var(--accent-color);
+}
+
 .team-list > .team-photos:not(:first-child) {
   margin-left: 30px;
 }
