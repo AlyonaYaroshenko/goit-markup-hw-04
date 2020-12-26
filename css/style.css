@@ -15,6 +15,7 @@
   --hero-background: #c4c4c4;
   --hero-gradient: rgba(47, 48, 58, 0.4);
   --social-media: #afb1b8;
+  --footer-links-background: rgba(255, 255, 255, 0.1);
 }
 
 a {
@@ -417,6 +418,33 @@ img {
 .contacts-footer.difference {
   color: rgba(255, 255, 255, 0.6);
 }
+
+/* .footer-join {
+  display: inline-block;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--white-color);
+}
+
+.social-link {
+  width: 20px;
+  height: 20px;
+}
+
+.join {
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--white-color);
+} */
 
 /* portfolio page */
 
