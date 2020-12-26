@@ -87,7 +87,7 @@ img {
 .site-nav {
   display: inline-block;
   display: flex;
-  margin: 32px 331px 32px 0px;
+  margin: 32px 305px 32px 0px;
   padding: 0px;
   border: 0px;
 }
@@ -97,15 +97,26 @@ img {
 }
 
 .adress-container {
-  display: inline-block;
   display: flex;
+  justify-content: center;
   align-items: center;
   margin: 32px 0px 32px 0px;
   padding: 0px;
 }
 
+.icon-envelope,
+.icon-smartphone {
+  margin: 0px 10px 0px 0px;
+  fill: currentColor;
+}
+
+.adress {
+  display: flex;
+  align-items: center;
+}
+
 .adress-container > .adress:not(:last-child) {
-  margin-right: 50px;
+  margin-right: 30px;
   padding: 0px;
 }
 
