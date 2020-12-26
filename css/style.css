@@ -366,6 +366,11 @@ img {
 
 /* footer */
 
+.footer-blocks {
+  display: flex;
+  align-items: flex-start;
+}
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -391,21 +396,14 @@ img {
 }
 
 .footer-nav {
-  display: inline-block;
   display: flex;
   padding: 0px;
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .adress-footer {
-  margin: 20px 0px 0px 0px;
+  margin: 20px 0px 9px 0px;
   padding: 0px;
-}
-
-.footer-list {
-  padding: 0px;
-  margin-top: 9px;
-  margin-bottom: 0px;
 }
 
 .adress-footer,
@@ -430,9 +428,9 @@ img {
 
 /* footer links */
 
-/* .footer-join {
+.footer-join {
   display: inline-block;
-  margin-left: 70px;
+  margin: 0px 0px 0px 70px;
 }
 
 .join {
@@ -442,7 +440,7 @@ img {
   font-weight: 700;
   line-height: 16px;
   text-transform: uppercase;
-  margin: 0px 0px 20px;
+  margin: 12px 0px 20px 0px;
   padding: 0px;
   color: var(--white-color);
 }
@@ -475,7 +473,7 @@ img {
   width: 20px;
   height: 20px;
   fill: var(--white-color);
-} */
+}
 
 /* portfolio page */
 
