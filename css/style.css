@@ -14,6 +14,7 @@
   --button-background: #f5f4fa;
   --hero-background: #c4c4c4;
   --hero-gradient: rgba(47, 48, 58, 0.4);
+  --social-media: #afb1b8;
 }
 
 a {
@@ -308,6 +309,7 @@ img {
 .social-list {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 16px 32px 0px;
 }
 
@@ -318,6 +320,7 @@ img {
 .icon-size {
   width: 20px;
   height: 20px;
+  fill: var(--social-media);
 }
 
 .social-links {
@@ -335,6 +338,7 @@ img {
 
 .social-links:hover {
   background-color: var(--accent-color);
+  fill: var(--white-color);
 }
 
 .team-list > .team-photos:not(:first-child) {
