@@ -338,7 +338,6 @@ img {
 }
 
 /* social links */
-
 .social-list {
   display: flex;
   justify-content: center;
@@ -557,7 +556,6 @@ img {
   margin-left: auto;
   margin-right: auto;
   padding: 0px;
-  /* font-weight: 500; */
 }
 
 .button-portfolio {
@@ -566,7 +564,6 @@ img {
   cursor: pointer;
   padding: 6px 22px;
 
-  /* font-family: inherit; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.7;
