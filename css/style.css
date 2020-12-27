@@ -522,6 +522,7 @@ img {
 .icons-size {
   width: 20px;
   height: 20px;
+  fill: currentColor;
 }
 
 /* portfolio page */
