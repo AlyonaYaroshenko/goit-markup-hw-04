@@ -366,14 +366,10 @@ img {
   fill: currentColor;
 }
 
-.icon-size:hover,
-.icon-size:focus {
-  fill: var(--white-color);
-}
-
 .social-links:hover,
 .social-links:focus {
   background-color: var(--accent-color);
+  color: var(--white-color);
 }
 
 /* clients */
@@ -394,14 +390,16 @@ img {
 }
 
 .logo-link {
+  display: block;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 170px;
   height: 90px;
   border: 1px solid var(--social-media);
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   border-radius: 4px;
+  background-color: var(--white-color);
   color: var(--social-media);
 }
 
@@ -409,14 +407,10 @@ img {
   fill: currentColor;
 }
 
-.logos:hover,
-.logos:focus {
-  fill: var(--accent-color);
-}
-
-.logo-link:hover,
-.logo-link:focus {
+.clients-item > .logo-link:hover,
+.clients-item > .logo-link:focus {
   border-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 /* footer */
@@ -527,7 +521,6 @@ img {
 .icons-size {
   width: 20px;
   height: 20px;
-  fill: var(--white-color);
 }
 
 /* portfolio page */
@@ -588,6 +581,7 @@ img {
   margin-left: 30px;
   margin-right: 0px;
 }
+
 .portfolio-link:focus,
 .portfolio-list:hover {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
