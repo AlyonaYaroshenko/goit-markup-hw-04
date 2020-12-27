@@ -121,9 +121,10 @@ img {
   padding: 0px;
 }
 
-.site-nav .nav-link.current {
+/* .site-nav .nav-link.current {
   color: var(--title-color);
-}
+} */
+/* добавляет ченый ховер и фокус если находишся на этой странице */
 
 .nav-link,
 .adress {
