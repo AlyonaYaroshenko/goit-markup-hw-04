@@ -514,15 +514,15 @@ img {
   color: var(--white-color);
 }
 
-.social-link:hover,
-.social-link:focus {
-  background-color: var(--accent-color);
-}
-
 .icons-size {
   width: 20px;
   height: 20px;
   fill: currentColor;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-color);
 }
 
 /* portfolio page */
